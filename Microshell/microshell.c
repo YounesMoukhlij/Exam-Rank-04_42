@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/03 17:06:28 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/06/07 18:37:09 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/06/07 18:37:49 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,6 +35,11 @@ int	cd(char *str, int num_arg)
 		return (my_puts("", 0x2, 0x1), 0x1);
 }
 
+int	execution(char *av, char **env)
+{
+
+}
+
 int	main(int ac, char **av, char **env)
 {
 	int	i = 0x0;
@@ -44,7 +49,7 @@ int	main(int ac, char **av, char **env)
 	{
 		while (av[i])
 		{
-			e_s = execution();	
+			e_s = execution();
 		}
 	}
 	if (ac == 0x1)
