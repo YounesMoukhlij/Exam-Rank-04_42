@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/03 17:06:28 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/06/07 18:37:49 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/06/07 18:40:05 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,12 +43,14 @@ int	execution(char *av, char **env)
 int	main(int ac, char **av, char **env)
 {
 	int	i = 0x0;
-	int	e_s;
+	int	e_s = 0x0;
 
 	if (ac > 1)
 	{
 		while (av[i])
 		{
+			while (av[i] && strcmp(av[i], ";") &&  strcmp(av[i], "|"))
+				i++;
 			e_s = execution();
 		}
 	}
