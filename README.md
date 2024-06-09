@@ -5,13 +5,15 @@ During the Common Core, before you validate each Cercle the student must passed 
 **Holy Graph:**
 <img width="1318" alt="Screen Shot 2024-06-09 at 9 17 04 PM" src="https://github.com/YounesMoukhlij/Exam_Rank_04_42/assets/123767564/a22d8237-95a7-439f-ab98-96fea7d87634">
 
-### Subject :
+### Subject:
 
 Assignment name  : microshell
 Expected files   : microshell.c
 Allowed functions: malloc, free, write, close, fork, waitpid, signal, kill, exit, chdir, execve, dup, dup2, pipe, strcmp, strncmp
+
 --------------------------------------------------------------------------------------
 
+Expected files   : microshell.c
 Ecrire un programme qui ressemblant à un executeur de commande shell
 - La ligne de commande à exécuter sera passer en argument du programme
 - Les exécutables seront appelés avec un chemin relatif ou absolu mais votre programme ne devra pas construire de chemin (en utilisant la variable d environment PATH par exemple)
