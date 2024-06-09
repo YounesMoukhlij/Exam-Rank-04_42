@@ -7,9 +7,13 @@ During the Common Core, before you validate each Cercle the student must passed 
 
 ### Subject:
 
+<br>
 Assignment name  : microshell
+<br>
 Expected files   : microshell.c
+<br>
 Allowed functions: malloc, free, write, close, fork, waitpid, signal, kill, exit, chdir, execve, dup, dup2, pipe, strcmp, strncmp
+<br>
 
 --------------------------------------------------------------------------------------
 
