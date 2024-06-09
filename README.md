@@ -8,5 +8,4 @@ During the Common Core, before you validate each Cercle the student must passed 
 <br>
 [Contact Me](https://github.com/YounesMoukhlij)
 
-</br>
 **Autor: Younes Moukhlij**
